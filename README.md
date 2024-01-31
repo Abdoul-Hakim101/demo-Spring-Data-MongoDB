@@ -18,3 +18,4 @@ By default, the application uses the following configuration:
 - Server port: `8080`
 
 ## Screenshots
+![](Screenshot_2024-01-31-113214.png)
