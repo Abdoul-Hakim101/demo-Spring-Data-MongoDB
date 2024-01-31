@@ -21,4 +21,15 @@ public class Student {
     private List<String> favSubjects;
     private double totalSpentInBooks;
     private LocalDateTime created;
+
+    public Student(String firstName, String lastName, String email, Gender gender, Address address, List<String> favSubjects, double totalSpentInBooks, LocalDateTime created) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.gender = gender;
+        this.address = address;
+        this.favSubjects = favSubjects;
+        this.totalSpentInBooks = totalSpentInBooks;
+        this.created = created;
+    }
 }
